@@ -1,0 +1,9 @@
+.vscode
+.history
+node_modules
+dist
+build
+.idea
+*.log
+volumes
+mysql_data
