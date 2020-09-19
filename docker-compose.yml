@@ -1,0 +1,12 @@
+version: "3"
+
+services:
+  api:
+    container_name: stablo-api
+    restart: always
+    build:
+      context: .
+    ports:
+      - 80
+    environment:
+      - NODE_ENV=production

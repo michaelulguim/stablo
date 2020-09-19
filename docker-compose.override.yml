@@ -1,0 +1,10 @@
+version: "3"
+
+services:
+  api:
+    volumes:
+      - './src:/www/src'
+    ports:
+      - 4000
+    environment:
+      - NODE_ENV=development
