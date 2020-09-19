@@ -7,3 +7,4 @@ build
 *.log
 volumes
 mysql_data
+coverage
